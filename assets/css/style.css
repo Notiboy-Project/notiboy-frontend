@@ -17695,3 +17695,7 @@ SaaSio - HR Management
 .sa-contact-inner-btn {
   width: 100%;
 }
+
+.owl-nav{
+  display: none !important;
+}
