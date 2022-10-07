@@ -17699,3 +17699,13 @@ SaaSio - HR Management
 .owl-nav{
   display: none !important;
 }
+
+#s2_team_slide{
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.team_align{
+  display: flex !important;
+  justify-content: space-between !important;
+}
