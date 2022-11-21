@@ -8888,30 +8888,17 @@ Sticky Menu
 
 .saas_two_main_header .saas_sign_up_btn {
   height: 55px;
-  width: 175px;
+  width: 160px;
   float: right;
   line-height: 55px;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: #73299a;
 }
 
 .saas_two_main_header .saas_sign_up_btn a {
   color: #fff;
   font-weight: 600;
-  padding-left: 15px;
   position: relative;
-}
-
-.saas_two_main_header .saas_sign_up_btn a:before {
-  left: -5px;
-  top: 4px;
-  color: #fff;
-  font-size: 13px;
-  line-height: 1;
-  content: "";
-  font-weight: 900;
-  position: absolute;
-  font-family: "Font Awesome 5 Free";
 }
 
 .saas_two_main_header .dropdown .dropdown-menu {
