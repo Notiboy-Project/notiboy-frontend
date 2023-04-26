@@ -1,561 +1,334 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Notiboy | Making communication efficient for web3.</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url" content="htts://notiboy.com" />
-    <meta property="og:title" content="Notiboy" />
-    <meta property="og:description" content="Making web3 applications user centric on Algorand." />
-    <meta property="og:image" content="https://notiboy.com/assets/img/saas-c/banner/notiboy.png" />
-    <link rel="shortcut icon" href="assets/img/saas-c/logo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/img/saas-c/logo/favicon.ico" type="image/x-icon">
+ 
+    <!-- CSS Link -->
+    
+    <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-   
-    <link rel="stylesheet" href="assets/css/dark-version.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- js Link  -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+    <title>notiboy</title>
 </head>
 
-<body class="saas-classic dark-version">
-    <!-- preloader - start -->
-    <div id="preloader" class="saas-classic-preloader"></div>
-    <div class="up">
-        <a href="#" id="scrollup" class="saas-classic-scrollup text-center"><i class="fas fa-angle-up"></i></a>
-    </div>
+<body class="test">
 
-    <!-- Start of header section
-        ============================================= -->
-        <header id="header_main" class="saas_two_main_header">
-            <div class="container">
-                <div class="s_main_menu">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="brand_logo">
-                                <a href="https://notiboy.com/"><img src="assets/img/saas-c/logo/notiboy.png" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="main_menu_list clearfix float-right">
-                                <nav class="s2-main-navigation  clearfix ul-li pb-3">
-                                    <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#saas_two_service">Problems</a></li>
-                                        <li><a href="#saas_two_feature">Solutions</a></li>
-                                        <li><a href="#saas_two_team">Team</a></li>
-                                        <li><a href="#s2-pricing">Roadmap</a> </li>
-                                        <li><a href="https://notiboy-project.gitbook.io/notiboy-project/" target="_blank">Docs</a> </li>
-                                    </ul>
-                                </nav>
-                                <div class="saas_sign_up_btn text-center">
-                                    <a href="https://app.notiboy.com"> Launch App</a>
-                                </div>
-                            </div>
-                        </div>
+    <!-- header start  -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <nav class="header-nav navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#"><img src="assets/image/notiboy.png" alt="" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icons"></span>
+                        <span class="navbar-toggler-icons"></span>
+                        <span class="navbar-toggler-icons"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="partner.html">Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Docs</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <!-- //desktop menu -->
-                <div class="s2-mobile_menu relative-position">
-                    <div class="s2-mobile_menu_button s2-open_mobile_menu">
-                        <i class="fas fa-bars"></i>
+                    <div class="header-button">
+                        <a href="https://app.notiboy.com/" class="btn btn-outline-light" target="_blank">Launch App</a>
                     </div>
-                    <div class="s2-mobile_menu_wrap">
-                        <div class="mobile_menu_overlay s2-open_mobile_menu"></div>
-                        <div class="s2-mobile_menu_content">
-                            <div class="s2-mobile_menu_close s2-open_mobile_menu">
-                                <i class="far fa-times-circle"></i>
-                            </div>
-                            <div class="m-brand-logo text-center">
-                                <a href="!#"><img src="assets/img/saas-c/logo/notiboy_small.png" alt=""></a>
-                            </div>
-                            <nav class="s2-mobile-main-navigation  clearfix ul-li">
-                             <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
-                                <li> <a href="#">Home</a></li>
-                                <li><a href="#saas_two_service">Problems</a></li>
-                                <li><a href="#saas_two_feature">Solutions</a></li>
-                                <li><a href="#saas_two_team">Team</a></li>
-                                <li><a href="#s2-pricing">Roadmap</a> </li>
-                                <li><a href="https://notiboy-project.gitbook.io/notiboy-project/" target="_blank">Docs</a> </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
-    <!-- End of header section
-        ============================================= -->
 
-    <!-- Start of Banner section    
-        ============================================= -->
-        <section id="saas_two_banner" class="saas_two_banner_section relative-position">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="s2-banner_area relative-position">
-                            <div class="s2-banner_content saas2-headline pera-content">
-                                <!-- <span class="s2-tilte_tag">Creative SAAS website</span> -->
-                                <h1>Notiboy
-                                    <!-- <span>SAAS</span> business -->
-                                </h1>
-                                <p style="font-size: 1.5rem;">Efficient and effective communication on web3.</p>
-                                <!-- <div class="banner_btn">
-                                    <a href="#"><i class="fas fa-cloud-download-alt"></i> Try it free</a>
-                                    <a href="#"><i class="fas fa-clipboard-list"></i> Get a demo</a>
-                                    <span>No credit card required *</span>
-                                </div> -->
-                            </div>
-                            <!-- <div class="banner_mockup">
-                                <img src="assets/img/saas-c/banner/global-connections.jpg" style="border-radius: 30px;" alt="">
-                            </div> -->
+    <!-- header end  -->
+
+    <!-- landing section start  -->
+
+    <section class="landing-section">
+        <div class="container">
+            <div class="landing-content">
+                <div class="row d-flex align-items-center">
+                    <div class="col col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="landing-detail">
+                            <h1 class="landing-title">NOTIBOY</h1>
+                            <p class="landing-subtitle">Efficient and effective communication on web3.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="s2-banner_shape1 position-absolute" data-parallax='{"y" : 100}'><img src="assets/img/saas-c/banner/b-shape4.png" alt=""></div>
-            <div class="s2-banner_shape2 position-absolute"><img src="assets/img/saas-c/banner/b-shape3.png" alt=""></div>
-            <div class="s2-banner_shape3 position-absolute"><img src="assets/img/saas-c/banner/b-shape2.png" alt=""></div>
-        </section>
-    <!-- End of Banner section
-        ============================================= -->
-
-    <!-- Start of Problem  section    
-        ============================================= -->
-        <section id="saas_two_service" class="saas_two_service_section">
-            <div class="container">
-                <div class="saas_two_section_title saas2-headline text-center">
-                    <!-- <span class="title_tag">Our awesome services</span> -->
-                    <h2>Communication Problems</h2>
-                </div>
-                <!-- /section title -->
-                <div class="service_content">
-                    <div class="row justify-content-md-center">
-                        <div class="col-lg-4 col-md-6  wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="service_content_box relative-position">
-                                <div class="service_icon_box relative-position">
-                                    <div class="upper_icon">
-                                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve"> <g> <g> <path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z"/> </g> </g> <g> <g> <path d="M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195 C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15 C481,444.833,460.745,395.539,423.966,358.195z"/> </g> </g> </svg>   
-                                    </div>
-                                    <div class="lower_icon">
-                                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve"> <g> <g> <path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z"/> </g> </g> <g> <g> <path d="M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195 C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15 C481,444.833,460.745,395.539,423.966,358.195z"/> </g> </g> </svg>   
-                                    </div>
-                                </div>
-                                <div class="service_text_box saas2-headline pera-content">
-                                    <h3>Communicating On-chain Events</h3>
-                                    <p>There is no way in which a dApp can send messages to its users based on on-chain events in a truly decentralized and censorship resistant way.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /service-content -->
-                        <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="service_content_box relative-position">
-                                <div class="service_icon_box relative-position">
-                                    <div class="upper_icon">
-                                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve"> <g> <g> <path d="M503.706,230.013h-10.817c-5.851-53.728-29.947-104.087-68.381-142.522c-23.295-23.295-50.978-41.316-81.129-53.21 h118.012c3.47,10.273,13.193,17.693,24.622,17.693c14.329,0,25.987-11.658,25.987-25.987C512,11.658,500.342,0,486.013,0 c-11.43,0-21.152,7.42-24.622,17.693H281.987v-9.4c0-4.58-3.713-8.294-8.294-8.294h-35.387c-4.58,0-8.294,3.713-8.294,8.294v9.4 H50.609C47.139,7.42,37.417,0,25.987,0C11.658,0,0,11.658,0,25.987c0,14.329,11.658,25.987,25.987,25.987 c11.43,0,21.152-7.42,24.622-17.693h118.013c-30.153,11.894-57.834,29.915-81.13,53.212 c-38.435,38.434-62.53,88.793-68.381,142.521H8.294c-4.58,0-8.294,3.713-8.294,8.294v35.387c0,4.58,3.713,8.294,8.294,8.294H43.68 c4.58,0,8.294-3.713,8.294-8.294v-35.387c0-4.58-3.713-8.294-8.294-8.294h-7.882c5.779-49.305,28.091-95.46,63.424-130.792 c35.331-35.331,81.487-57.644,130.791-63.423v7.882c0,3.236,1.858,6.032,4.562,7.399l-109.95,236.815 c-1.295,2.789-0.94,6.065,0.921,8.513c0.563,0.741,54.672,72.695,59.892,147.406c-10.096,3.568-17.351,13.204-17.351,24.506 v17.693c0,14.329,11.658,25.987,25.987,25.987h123.853c14.329,0,25.987-11.658,25.987-25.987V468.32 c0-11.303-7.255-20.937-17.35-24.505c5.221-74.595,59.33-146.668,59.892-147.406c1.861-2.447,2.216-5.724,0.921-8.513 L277.425,51.079c2.704-1.367,4.562-4.163,4.562-7.399v-7.882c49.305,5.779,95.46,28.091,130.792,63.424 c35.332,35.332,57.644,81.488,63.423,130.792h-7.882c-4.58,0-8.294,3.713-8.294,8.294v35.387c0,4.58,3.713,8.294,8.294,8.294 h35.387c4.58,0,8.294-3.713,8.294-8.294v-35.387C512,233.726,508.287,230.013,503.706,230.013z M486.013,16.587 c5.183,0,9.4,4.217,9.4,9.4c0,5.183-4.217,9.4-9.4,9.4s-9.4-4.217-9.4-9.4C476.613,20.804,480.83,16.587,486.013,16.587z M25.987,35.387c-5.183,0-9.4-4.217-9.4-9.4c0-5.183,4.217-9.4,9.4-9.4c5.183,0,9.4,4.217,9.4,9.4 C35.387,31.17,31.17,35.387,25.987,35.387z M35.387,265.4H16.587V246.6H26.61c0.019,0,0.038,0.002,0.056,0.002 c0.016,0,0.03-0.002,0.045-0.002h8.675V265.4z M246.6,16.587H265.4v18.799H246.6V16.587z M327.326,468.32v17.693 c0,5.183-4.216,9.4-9.4,9.4H194.073c-5.183,0-9.4-4.217-9.4-9.4V468.32c0-5.183,4.216-9.4,9.4-9.4h123.853 C323.11,458.92,327.326,463.137,327.326,468.32z M370.271,290.443c-11.983,16.831-55.262,82.018-60.229,151.889H201.958 c-4.967-69.871-48.246-135.058-60.229-151.889L247.706,62.184v195.374c-15.215,3.731-26.54,17.479-26.54,33.828 c0,19.207,15.626,34.834,34.834,34.834s34.834-15.627,34.834-34.834c0-16.35-11.325-30.096-26.54-33.828V62.184L370.271,290.443z M256,273.14c10.061,0,18.246,8.185,18.246,18.246c0,10.061-8.185,18.246-18.246,18.246s-18.246-8.185-18.246-18.246 S245.939,273.14,256,273.14z M495.413,265.4h-18.799V246.6h8.676c0.016,0,0.03,0.002,0.045,0.002c0.019,0,0.038-0.002,0.056-0.002 h10.021V265.4z"/> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
-                                    </div>
-                                    <div class="lower_icon">
-                                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve"> <g> <g> <path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z"/> </g> </g> <g> <g> <path d="M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195 C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15 C481,444.833,460.745,395.539,423.966,358.195z"/> </g> </g> </svg>   
-                                    </div>
-                                </div>
-                                <div class="service_text_box saas2-headline pera-content">
-                                    <h3>On-Chain Messaging</h3>
-                                    <p>There is no specialized platform to send messages between addresses. Web3 communication is crucial for growth of ecosystem.</p>
-                                    <br>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /service-content -->
-                        <div class="col-lg-4 col-md-6 wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="service_content_box relative-position">
-                                <div class="service_icon_box relative-position">
-                                    <div class="upper_icon">
-                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                        viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-                                   <style type="text/css">
-                                       .st0{fill:#C4A2FC;}
-                                   </style>
-                                   <path class="st0" d="M927.2,594.9c-32.2-19.2-64.4-19.2-96.6-12.8c-25.7,6.4-45.1,19.2-57.9,31.9l-90.2-51.1
-                                       c6.4-12.8,6.4-31.9,6.4-51.1c0-19.2-6.4-31.9-6.4-51.1l90.2-51.1c25.7,25.6,57.9,38.3,90.1,38.3c19.3,0,45.1-6.4,64.4-19.2
-                                       c64.4-38.3,83.7-114.9,45.1-172.4c-19.3-31.9-45.1-51.1-77.2-57.5c-32.2-6.4-70.8-6.4-96.6,12.8c-32.2,19.1-51.5,44.7-57.9,76.6
-                                       c-6.4,19.1-6.4,44.7,0,63.8l-90.2,51.1c-25.7-19.1-57.9-38.3-90.1-44.7V250.1c56.8-12.6,97-63.1,96.6-121.3
-                                       c-0.5-70.7-58-127.7-128.7-127.7c-70.7-0.1-128.2,57-128.8,127.7c0,57.5,38.7,108.5,96.6,121.3v102.1
-                                       c-32.2,12.8-64.4,31.9-90.1,51.1l-90.2-51.1c6.4-19.1,6.4-44.7,0-63.8c-6.4-31.9-25.7-63.9-57.9-76.6
-                                       c-32.2-19.2-64.4-25.6-96.6-12.8c-32.2,6.4-64.4,25.6-77.2,57.5C71,288.4,58.1,320.4,71,352.3c6.4,31.9,25.7,63.9,57.9,76.6
-                                       c19.3,12.8,45.1,19.2,64.4,19.2c32.2,0,64.4-12.8,90.1-38.3l90.2,51.1c0,19.2-6.4,31.9-6.4,51.1c0,19.2,6.4,31.9,6.4,51.1L283.4,614
-                                       c-12.8-19.2-38.6-25.5-57.9-31.9c-32.2-12.8-64.4-6.4-96.6,12.8c-32.2,12.8-51.5,44.7-57.9,76.6c-12.9,31.9-6.4,63.8,12.8,95.7
-                                       c19.4,31.9,45.1,51.1,77.3,57.5c12.9,6.4,19.3,6.4,32.2,6.4c19.3,0,45.1-6.4,64.4-19.2c32.2-19.1,51.5-44.7,57.9-76.6
-                                       c6.4-19.1,6.4-44.7,0-63.8l90.2-51.1c25.7,19.1,57.9,38.3,90.1,44.7v102.1c-57.9,19.2-96.6,70.2-96.6,127.7
-                                       c0.5,70.7,58,127.8,128.8,127.7c70.7,0.1,128.2-57,128.8-127.7c0-57.5-38.7-108.5-96.6-121.3V671.5c32.2-6.4,64.4-25.6,90.1-51.1
-                                       l90.2,51.1c-6.4,19.2-6.4,44.7,0,63.8c6.4,32,32.2,57.5,57.9,76.6c19.3,12.8,45.1,19.2,64.4,19.2c12.9,0,19.3,0,32.2-6.4
-                                       c32.2-6.4,57.9-31.9,77.2-57.5C1010.9,703.4,991.6,626.8,927.2,594.9L927.2,594.9z M798.5,301.2c6.4-19.1,12.9-31.9,32.2-38.3
-                                       c12.9-6.4,19.3-6.4,32.2-6.4h19.3c19.3,6.4,32.2,12.8,38.6,31.9c19.3,31.9,6.5,70.2-25.7,89.3c-32.2,19.2-70.8,6.4-90.1-25.5
-                                       C798.5,339.5,798.5,320.4,798.5,301.2L798.5,301.2z M251.3,352.3c-19.3,31.9-58,38.3-90.2,25.6c-12.9-12.8-25.7-25.6-32.2-38.4
-                                       c0-19.1,0-38.3,6.4-51c12.9-12.8,25.8-25.6,38.7-31.9c19.3,0,38.7,0,51.5,6.4s25.7,19.2,32.2,38.3
-                                       C257.7,320.4,257.7,339.5,251.3,352.3z M257.7,722.6c-6.4,19.2-12.9,31.9-32.2,38.3c-12.9,6.4-32.2,6.4-51.5,6.4
-                                       c-19.3-6.4-32.2-12.8-38.6-31.9c-6.5-12.8-12.9-31.9-6.5-51.1c6.4-19.1,12.9-31.9,32.2-38.3c12.9-6.4,19.3-6.4,32.2-6.4h19.3
-                                       c19.3,6.4,32.2,12.8,38.6,31.9C257.7,684.3,257.7,703.4,257.7,722.6z M463.7,128.8c0-38.3,25.7-63.8,64.4-63.8s64.4,25.5,64.4,63.8
-                                       c0,38.3-25.7,63.9-64.4,63.9S463.7,167.1,463.7,128.8L463.7,128.8z M592.5,894.9c0,38.3-25.7,63.9-64.4,63.9s-64.4-25.6-64.4-63.9
-                                       s25.7-63.8,64.4-63.8S592.5,856.6,592.5,894.9L592.5,894.9z M528.1,607.6c-51.5,0-96.6-44.7-96.6-95.7s45.1-95.7,96.6-95.7
-                                       s96.6,44.7,96.6,95.7S579.6,607.6,528.1,607.6z M920.8,735.3c-6.4,12.8-19.3,25.6-38.6,32c-19.3,6.3-32.2,0-51.5-6.4
-                                       c-12.9-6.4-25.7-19.2-32.2-38.4c-6.4-19.1,0-31.9,6.4-51c12.9-19.2,32.3-31.9,58-31.9c12.9,0,19.3,0,32.2,6.4
-                                       C927.2,665.2,933.7,703.4,920.8,735.3L920.8,735.3z"/>
-                                   </svg> 
-                                    </div>
-                                    <div class="lower_icon">
-                                        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"  xml:space="preserve"> <g> <g> <path d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z"/> </g> </g> <g> <g> <path d="M423.966,358.195C387.006,320.667,338.009,300,286,300h-60c-52.008,0-101.006,20.667-137.966,58.195 C51.255,395.539,31,444.833,31,497c0,8.284,6.716,15,15,15h420c8.284,0,15-6.716,15-15 C481,444.833,460.745,395.539,423.966,358.195z"/> </g> </g> </svg>   
-                                    </div>
-                                </div>
-                                    <div class="service_text_box saas2-headline pera-content">
-                                        <h3>Cross Chain Communication</h3>
-                                        <p>dApps on algorand have no means to communicate on-chain events to their users on other chains.</p>
-                                        <br>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /service-content -->
+                    <div class="col col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="landing-img">
+                            <img src="assets/image/GAMING.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                </div>
-            </section>
-    <!-- End of service section    
-        ============================================= -->
-
-    <!-- Start of solution section   
-        ============================================= -->
-        <section id="saas_two_feature" class="saas_two_feature_section">
-            <div class="container">
-                <div class="saas_two_section_title saas2-headline text-center" style="margin-bottom: 5rem;">
-                    <h2>Solutions</h2>
-                </div>
-                <div class="s2-feature_content">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12 wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="s2-feature_left">
-                                <div class="s2-feature_text saas2-headline pera-content">
-                                    <h2>Decentralized communication layer</h2>
-                                    <p>We envision to become the default communication service which makes web 3 applications more interactive and user-centric.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /feature left content -->
-                        <div class="col-lg-6 col-md-12">
-                            <div class="s2-feature_right">
-                                <div class="s2-feature_list s2-grean wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="s2-feature_icon text-center relative-position">
-                                        <i class='fab fa-codepen'></i>
-                                    </div>
-                                    <div class="s2-feature_text_box saas2-headline pera-content">
-                                        <h3>Messaging Service</h3>
-                                        <p>Build a messaging service for address to address, service to address and service to channel Communication. </p>
-                                    </div>
-                                </div>
-                                <!-- list item -->
-                                <div class="s2-feature_list s2-purple wow fadeFromUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                                    <div class="s2-feature_icon text-center relative-position">
-                                        <i class="fas fa-pen-square"></i>
-                                    </div>
-                                    <div class="s2-feature_text_box saas2-headline pera-content">
-                                        <h3>REST APIs and SDKs</h3>
-                                        <p>Build REST APIs and Software Development Kits for integration with other DApps.</p>
-                                    </div>
-                                </div>
-                                <!-- list item -->
-                                <div class="s2-feature_list s2-pink wow fadeFromUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div class="s2-feature_icon text-center relative-position align-center">
-                                        <i class="fas fa-bars"></i>
-                                    </div>
-                                    <div class="s2-feature_text_box saas2-headline pera-content">
-                                        <h3>Web App & Mobile App</h3>
-                                        <p>Web application and a mobile application for users who would like use our services independent of other applications.</p>
-                                    </div>
-                                </div>
-                                <!-- list item -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!-- End of solution section   
-        ============================================= -->
-
-    <!-- Start of team section   
-        ============================================= -->
-        <section id="saas_two_team" class="saas_two_team_section">
-            <div class="container">
-                <div class="saas_two_section_title saas2-headline text-center">
-                    <h2>Our Team Members</h2>
-                </div>
-                <div id="s2_team_slide" class="s2-team_membar team_align">
-                    <div class="s2-team_img_text  relative-position wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="s2_tean_img">
-                            <img src="assets/img/saas-c/team/vidhyanand.jpg" alt="vidhyanand">
-                        </div>
-                        <div class="s2_tean_text">
-                            <div class="s2_name_info saas2-headline">
-                                <h3>Vidhyanand CS</h3>
-                                <span class="s2-designation">Head, Marketing</span>
-                            </div>
-                        </div>
-                        <div class="s2-mem_social ul-li-block">
-                            <ul>
-                                <li><a href="https://www.linkedin.com/in/vidhyanand-c-s-57344672/"><i class="fab fa-linkedin"></i></a></li>
-                                <li><a href="https://twitter.com/vithushaji"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                            <div class="s2-share_btn text-center"><i class="fas fa-share-alt"></i></div>
-                        </div>
-                    </div>
-                    <div class="s2-team_img_text  relative-position wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="500ms">
-                        <div class="s2_tean_img">
-                            <img src="assets/img/saas-c/team/deepak.jpeg" alt="Deepak">
-                        </div>
-                        <div class="s2_tean_text">
-                            <div class="s2_name_info saas2-headline">
-                                <h3>Deepak S</h3>
-                                <span class="s2-designation">Principal Software Engineer</span>
-                            </div>
-                        </div>
-                        <div class="s2-mem_social ul-li-block">
-                            <ul>
-                                <li><a href="https://github.com/dpaks"><i class="fab fa-github"></i></a></li>
-                                <li><a href="https://twitter.com/dpakspavoodath"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                            <div class="s2-share_btn text-center"><i class="fas fa-share-alt"></i></div>
-                        </div>
-                    </div>
-                    <div class="s2-team_img_text  relative-position wow fadeFromLeft" data-wow-delay="900ms" data-wow-duration="1000ms">
-                        <div class="s2_tean_img">
-                            <img src="assets/img/saas-c/team/renjith.jpg" alt="Renjith">
-                        </div>
-                        <div class="s2_tean_text">
-                            <div class="s2_name_info saas2-headline">
-                                <h3>Renjith R</h3>
-                                <span class="s2-designation">Developer</span>
-                            </div>
-                        </div>
-                        <div class="s2-mem_social ul-li-block">
-                            <ul>
-                                <li><a href="https://github.com/renjithravindran"><i class="fab fa-github"></i></a></li>
-                                <li><a href="https://twitter.com/rprx88"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                            <div class="s2-share_btn text-center"><i class="fas fa-share-alt"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!-- End  of team section   
-        ============================================= -->
-
-
-    <!-- Start of roadmap section  
-        ============================================= -->
-        <section id="s2-pricing" class="s2-pricing_section">
-            <div class="container">
-                <div class="saas_two_section_title saas2-headline text-center">
-                    <h2> Roadmap</h2>
-                </div>
-                <!-- /section title -->
-                <div class="s2-pricing_content">
-                    <div class="row justify-content-md-center">
-                        <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="s2-pricing_item pb-4">
-                                <div class="s2-pricing_price relative-position clearfix">
-                                   
-                                    <div class="s2-pricing_text">
-                                        <strong>Q1 2023</strong>
-                                    </div>
-                                </div>
-                                <div class="s2-pricing_list ul-li-block">
-                                    <ul>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-checked float-left text-center"></div>
-                                            V1 Testnet launch.
-                                        </li>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-checked  float-left text-center"></div>
-                                            Integration with dApps.
-                                        </li>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-checked float-left text-center"></div>
-                                            Notiboy NFT distribution to testnet end-user addresses.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="400ms" data-wow-duration="1500ms"">
-                            <div class="s2-pricing_item pb-4">
-                                <div class="s2-pricing_price relative-position clearfix">
-                                    <div class="s2-pricing_text">
-                                        <strong>Q2 2023</strong>
-                                    </div>
-                                </div>
-                                <div class="s2-pricing_list ul-li-block">
-                                    <ul>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-checked float-left text-center"></div>
-                                            V1 Mainnet launch.
-                                        </li>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-checked  float-left text-center"></div>
-                                            Integration with dApps.
-                                        </li>
-                                        <li>
-                                            <div class="s2-pricing_list_icon s2-unchecked  float-left text-center"></div>
-                                            Optimizations based on feedback (V2).
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeFromLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
-                            <div class="s2-pricing_item pb-4">
-                                <div class="s2-pricing_price relative-position clearfix">
-                                    <div class="s2-pricing_text">
-                                        <strong>Q3 2023</strong>
-                                    </div>
-                               </div>
-                               <div class="s2-pricing_list ul-li-block">
-                                <ul>
-                                    <li>
-                                        <div class="s2-pricing_list_icon s2-unchecked float-left text-center"></div>
-                                        Email & Discord Integrations.
-                                    </li>
-                                    <li>
-                                        <div class="s2-pricing_list_icon s2-unchecked  float-left text-center"></div>
-                                        Android and IOS application for push notifications.
-                                    </li>
-                                    <li>
-                                        <div class="s2-pricing_list_icon s2-unchecked float-left text-center"></div>
-                                        DAO
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> 
                 </div>
             </div>
         </div>
     </section>
-    <!-- End of pricing section   
-        ============================================= -->    
 
-    <!-- Start of footer section
-        ============================================= -->
-        <!-- <footer id="saas_two_footer" class="saas_two_footer_section relative-position">
-            <div class="s2-newslatter_section relative-position">
-                <div class="container">
-                    <div class="s2-newslatter_content relative-position">
-                        <div class="s2-newslatter_title  text-center saas2-headline pera-content">
-                            <h2>Subscribe now!</h2>
-                            <p>Get the latest update.</p>
-                        </div>
-                        <div class="s2-newslatter-form  relative-position">
-                            <form action="#">
-                                <input class="email" name="email" type="email" placeholder="Enter your email address">
-                                <div class="nws-button position-absolute text-capitalize">
-                                    <button class="hover-btn" type="submit" value="Submit"> Subscribe</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="newsletter_pattern_1"><img src="assets/img/saas-c/banner/nb.png" alt=""></div>
-                    <div class="cloud_anim newsletter_pattern_2" style="background-image: url(https://old3.commonsupport.com/emu/wp-content/uploads/2021/02/cloud-2.png);"></div>
-                    <div class="cloud_anim newsletter_pattern_3" style="background-image: url(https://old3.commonsupport.com/emu/wp-content/uploads/2021/02/cloud-5.png);"></div> 
-                    <div class="newsletter_pattern_4 " style="background-image: url(assets/img/saas-c/banner/ns.png);"></div>
-                    <div class="newsletter_pattern_5 " style="background-image: url(assets/img/saas-c/banner/ns2.png);"></div>
+    <!-- landing section end  -->
+
+    <!-- communication section start  -->
+
+    <section class="communication-section" id="problems">
+        <div class="container">
+            <div class="communication-content">
+                <div class="communication-heading">
+                    <h2 class="main-title">Communication Problems</h2>
                 </div>
-            </div> 
-            <div class="footer_content pera-content">
-                <div class="container">
+                <div class="card-item">
                     <div class="row">
-                        <div class="col-lg-4 col-md-12">
-                            <div class="s2_footer_widget clearfix ul-li-block  saas2-headline">
-                                <div class="s2_footer_about">
-                                    <div class="s2-footer_logo">
-                                        <img src="assets/img/saas-c/logo/f-logo.png" alt="">
-                                    </div>
-                                    <div class="footer_about">
-                                        30 Commercial Road Fratton 
-                                        PORTSMOUTH Hampshire PO1 1AA 
-                                        UNITED KINGDOM
-                                    </div>
-                                    <span>Open Hours: </span>
-                                    <p>Mon - Sat: 8 am - 5 pm,
-                                    Sunday: CLOSED</p>
+                        <div class="col col-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets/image/team-communication-icon.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="card-detail">
+                                    <h2 class="card-title">
+                                        Communicating to End User Addresses
+                                    </h2>
+                                    <p class="card-subtitle">
+                                        Communicate updates regarding the project to end-user addresses.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="s2_footer_widget clearfix ul-li-block saas2-headline">
-                                <div class="s2_footer_menu">
-                                    <h3 class="s2_widget_title">
-                                        <span>Links</span>
-                                        <i></i>
-                                    </h3>
-                                    <ul>
-                                        <li><a href="#"> Home</a></li>
-                                        <li><a href="#"> Team</a></li>
-                                        <li><a href="#"> FAQ</a></li>
-                                        <li><a href="#"> Services</a></li>
-                                        <li><a href="#"> Gallery</a></li>
-                                        <li><a href="#"> About us</a></li>
-                                        <li><a href="#"> Contact</a></li>
-                                        <li><a href="#"> Testimonials</a></li>
-                                        <li><a href="#"> News</a></li>
-                                        <li><a href="#"> Portfolio</a></li>
-                                    </ul>
+                        <div class="col col-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets/image/blockchain-icon.png" alt="" class="img-fluid">
+                                    
+                                </div>
+                                <div class="card-detail">
+                                    <h2 class="card-title">
+                                        On-Chain Messaging
+                                    </h2>
+                                    <p class="card-subtitle">
+                                        Communication between addresses.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12">
-                            <div class="s2_footer_widget clearfix ul-li-block saas2-headline">
-                                <div class="s2_footer_social">
-                                    <h3 class="s2_widget_title">
-                                        <span>Newsletter</span> 
-                                        <i></i>
-                                    </h3>
-                                    <p>Send us a newsletter to get update</p>
-                                    <form action="#">
-                                        <input  name="email" type="email" placeholder="Enter your email address">
-                                        <button  type="submit" value="Submit"> <i class="fas fa-paper-plane"></i></button>
-                                    </form>
-                                    <a href="#"><i class="fb-bg fab fa-facebook-f "></i></a>
-                                    <a href="#"><i class="bh-bg fab fa-behance"></i></a>
-                                    <a href="#"><i class="tw-bg fab fa-twitter"></i></a>
-                                    <a href="#"><i class="dr-bg fab fa-dribbble"></i></a>
+                        <div class="col col-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="assets/image/package-distribute-icon.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="card-detail">
+                                    <h2 class="card-title">
+                                        Measuring Effectiveness
+                                    </h2>
+                                    <p class="card-subtitle">
+                                        Measuring effectiveness of communication that helps in optimizing outreach strategies.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer> -->
-        <div class="s2-copyright text-center">2023 © All rights reserved by 
-            <a href="#">Penguin Labs</a> &nbsp &nbsp
-            <a href="https://twitter.com/notiboyproject"><i class="tw-bg fab fa-twitter"></i></a> &nbsp
-            <a href="https://github.com/Notiboy-Project"><i class="bh-bg fab fa-github"></i></a>
         </div>
-    <!-- End of footer section 
-        ============================================= -->
+    </section>
 
-        <!-- JS library -->
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.js"></script>
-        <script src="assets/js/aos.js"></script>
-        <script src="assets/js/slick.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/pagenav.js"></script>
-        <script src="assets/js/jquery.barfiller.js"></script>
-        <script src="assets/js/parallax-scroll.js"></script>
-        <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-        <script src="assets/js/script.js"></script>
-    </body>
-    </html>
+    <!-- communication section end  -->
+
+    <!-- solution section start  -->
+
+    <section class="solution-section" id="solution">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-heading">
+                    <h2 class="main-title">Solution</h2>
+                </div>
+                <div class="solution-item">
+                    <div class="row align-items-center">
+                        <div class="col col-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <span class="service-icon">
+                                        <i class="fa-regular fa-message"></i>
+                                    </span>
+                                </div>
+                                <div class="service-detail">
+                                    <h2 class="service-title">
+                                        Messaging Service
+                                    </h2>
+                                    <p class="service-description">
+                                        Build a messaging service for address to address, service to address communication and provide analytics for measuring effectiveness
+                                        of communication.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <span class="service-icon">
+                                        <i class="fa-solid fa-retweet"></i>
+                                    </span>
+                                </div>
+                                <div class="service-detail">
+                                    <h2 class="service-title">
+                                        REST APIs and SDKs
+                                    </h2>
+                                    <p class="service-description">
+                                        Build REST APIs and Software Development Kits for integration with other DApps.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <span class="service-icon">
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                    </span>
+                                </div>
+                                <div class="service-detail">
+                                    <h2 class="service-title">
+                                        Web App & Mobile App
+                                    </h2>
+                                    <p class="service-description">
+                                        Web application and a mobile application for users who would like use our
+                                        services independent of other applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="solution-detail">
+                                <h2 class="solution-title">Decentralized communication layer</h2>
+                                <p class="solution-description">We envision to become the default communication service
+                                    which makes web 3 communication more predictable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- solution section end  -->
+
+    <!-- backed by section start  -->
+
+    <section class="backed-by-section">
+        <div class="container">
+            <div class="backed-by-content">
+                <div class="backed-heading">
+                    <h2 class="main-title">
+                        Backed By
+                    </h2>
+                </div>
+                <div class="investor-icons">
+                    <div class="row d-flex align-items-center">
+                        <div class="col col-12 col-md-4 col-lg-4 col-xl-4">
+                            <div class="investor-icon-item">
+                                <a href="https://www.borderlesscapital.io/" class="investor-link">
+                                    <img src="assets/image/a.svg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4 col-lg-4 col-xl-4">
+                            <div class="investor-icon-item">
+                                <a href="https://www.algorand.foundation/" class="investor-link">
+                                    <img src="assets/image/algorandfoundation.png" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4 col-lg-4 col-xl-4">
+                            <div class="investor-icon-item">
+                                <a href="https://www.axl.ventures/" class="investor-link">
+                                    <img src="assets/image/boderless.png" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- backed by section end  -->
+
+    <!-- question section start  -->
+
+    <section class="question-section">
+        <div class="container">
+            <div class="question-content">
+                <div class="question-heading">
+                    <h2 class="main-title">
+                        Still Have Questions?
+                    </h2>
+                    <p class="question-subtitle">
+                        We'd Love to Connect
+                    </p>
+                </div>
+                <ul class="question-detail">
+                    <li class="question-link">
+                        <a href="https://twitter.com/notiboyproject"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="question-link">
+                        <a href="discord.gg/GdJyPP598W"><i class="fa-brands fa-discord"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- question section end  -->
+
+
+    <!-- footer start  -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                <p class="footer-copyright">2023 © All rights reserved by <a href="#" class="copyright-link">Penguin
+                        Labs</a></p>
+                <ul class="footer-link-item">
+                    <li class="footer-link-list">
+                        <a href="#" class="footer-link"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                    <li class="footer-link-list">
+                        <a href="#" class="footer-link"><i class="fa-brands fa-square-github"></i></a>
+                    </li>
+                </ul>
+                </div>
+                <div class="footer-right">
+                    <ul class="footer-right-item">
+                        <li class="footer-right-list">
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                        <li class="footer-right-list">
+                            <a href="term.html">Term & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end  -->
+
+</body>
+
+</html>

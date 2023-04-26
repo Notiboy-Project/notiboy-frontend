@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-LightItalic.woff2') format('woff2'),
+        url('Rota-LightItalic.woff') format('woff'),
+        url('Rota-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraLightItalic.woff2') format('woff2'),
+        url('Rota-ExtraLightItalic.woff') format('woff'),
+        url('Rota-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Black.woff2') format('woff2'),
+        url('Rota-Black.woff') format('woff'),
+        url('Rota-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraBlack.woff2') format('woff2'),
+        url('Rota-ExtraBlack.woff') format('woff'),
+        url('Rota-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraLight.woff2') format('woff2'),
+        url('Rota-ExtraLight.woff') format('woff'),
+        url('Rota-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Light.woff2') format('woff2'),
+        url('Rota-Light.woff') format('woff'),
+        url('Rota-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Italic.woff2') format('woff2'),
+        url('Rota-Italic.woff') format('woff'),
+        url('Rota-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-BlackItalic.woff2') format('woff2'),
+        url('Rota-BlackItalic.woff') format('woff'),
+        url('Rota-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Bold.woff2') format('woff2'),
+        url('Rota-Bold.woff') format('woff'),
+        url('Rota-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraBoldItalic.woff2') format('woff2'),
+        url('Rota-ExtraBoldItalic.woff') format('woff'),
+        url('Rota-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-BoldItalic.woff2') format('woff2'),
+        url('Rota-BoldItalic.woff') format('woff'),
+        url('Rota-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraBlackItalic.woff2') format('woff2'),
+        url('Rota-ExtraBlackItalic.woff') format('woff'),
+        url('Rota-ExtraBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ExtraBold.woff2') format('woff2'),
+        url('Rota-ExtraBold.woff') format('woff'),
+        url('Rota-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-MediumItalic.woff2') format('woff2'),
+        url('Rota-MediumItalic.woff') format('woff'),
+        url('Rota-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Thin.woff2') format('woff2'),
+        url('Rota-Thin.woff') format('woff'),
+        url('Rota-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-SemiBold.woff2') format('woff2'),
+        url('Rota-SemiBold.woff') format('woff'),
+        url('Rota-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Medium.woff2') format('woff2'),
+        url('Rota-Medium.woff') format('woff'),
+        url('Rota-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-Regular.woff2') format('woff2'),
+        url('Rota-Regular.woff') format('woff'),
+        url('Rota-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-SemiBoldItalic.woff2') format('woff2'),
+        url('Rota-SemiBoldItalic.woff') format('woff'),
+        url('Rota-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rota';
+    src: url('Rota-ThinItalic.woff2') format('woff2'),
+        url('Rota-ThinItalic.woff') format('woff'),
+        url('Rota-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
