@@ -406,7 +406,7 @@ body {
 	position: relative;
 }
 .landing-subtitle:hover{
-    cursor: progress;
+    cursor: pointer;
 }
 .landing-subtitle::before {
 	top: 0;
@@ -442,9 +442,9 @@ body {
     left: 0;
     bottom: 0;
 }
-.landing-img:hover{
-    cursor: progress;
-}
+/* .landing-img:hover{
+    cursor: pointer;
+} */
 
 @keyframes MoveUpDown {
 
