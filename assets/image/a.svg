@@ -1,0 +1,6 @@
+<svg width="480" height="160" viewBox="0 0 480 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 80V160H400L480 80Z" fill="white"/>
+<circle cx="400" cy="80" r="80" fill="#21242F"/>
+<path d="M160 0V160H0L160 0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M240 0H160L240 80L160 160H240H320H400V80V0H320H240ZM320 80V0L240 80L320 160V80Z" fill="white"/>
+</svg>
